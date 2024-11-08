@@ -1,7 +1,7 @@
 import pymongo
 import pandas as pd
 
-uri = "mongodb+srv://pipt:HhnQbl12R8FS0S67@cluster0.tz7tehv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://pi4_reader:kOAu2Ux390mRg02m@cluster0.tz7tehv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = pymongo.MongoClient(uri)
 db = client["proj_integrador_iv"]
 collection = db["previsao"]
