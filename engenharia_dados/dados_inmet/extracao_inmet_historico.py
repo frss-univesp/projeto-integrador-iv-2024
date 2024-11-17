@@ -6,7 +6,7 @@ import re
 import pymongo
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://pi4_writer:pi4_writer@cluster0.tz7tehv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://secret:secret@cluster0.tz7tehv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 db = client['proj_integrador_iv']
 collection = db['historico_inmet']
 
